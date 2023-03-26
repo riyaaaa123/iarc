@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
+/* Css variables */
+:root{
+    --pfolio-d:20vw;
+    --navbar-height:10vh;
+    --nav-content-height:90vh;
+    --nav-color:aliceblue;
+    --nav-font-size:24px;
+}
+body{
+    background-color: black;
+    min-width: 100%;
+    width: 100%;
+    height: 100vh;
+    /* color: white; */
+}
+@media only screen and (min-width:0px){
+    body{
+        background-image: url("/images/Rereeee.jpeg"); background-size: cover; background-position: center center; background-repeat: no-repeat; background-attachment: fixed;
+    }
+}
+
+/* header{
+    
+        width: 100%;
+        height: 100vh;
+    
+} */
+
+
+.container{
+    /* width: 100%; */
+    /* background-color: rgb(118, 204, 241); */
+    display: flex;
+    /* height: 100vh; */
+    /* width: 90%; */
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+@media only screen  and (max-width:300px){
+    nav ul{
+        flex-direction:column;
+    }
+}
+
+
+
+
+.navbar{
+    font-size: var(--nav-font-size);
+    /* background-color: none; */
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    font-family: 'Dosis', sans-serif;
+    height: var(--navbar-height);
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(223, 133, 133); */
+    align-items: center;
+    padding: 0px 0px;
+    /* margin-bottom: 10px; */
+
+}
+.nav{
+    padding: 0px 20px;
+
+}
+.navbar ul{
+    
+    display: flex;
+    /* width: 90%; */
+    justify-content: space-between;
+    /* align-items: center; */
+}.navbar li{
+    
+    list-style: none;padding: 0px 20px;
+}
+.navbar ul li a{ 
+    color: white;
+    
+    text-decoration: none;
+    
+
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: rgb(202, 128, 128);
+}
+.navbar button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-size: var(--nav-font-size);
+    padding: 5px 5px;
+    margin: 0px 5px;
+    background-color: var(--nav-color);
+    border: 1px solid rgba(50, 11, 11, 0.181);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar button a{
+    color: rgb(66, 49, 70);
+    text-decoration: none;
+}
+.navbar button a:hover{
+    color: rgb(128, 63, 128);
+    text-decoration: underline;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Amatic SC', cursive;
+    
+    color: azure;
+    animation: topic 1s infinite;
+
+}
+.mainText{
+   
+    display: flex;
+    height:var(--nav-content-height) ;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@keyframes topic {
+    0% {
+      color: black;
+    }
+    /* 25% {
+      color: white;
+    } */
+    /* 40%{
+        color:blueviolet;
+    } */
+    50%{
+        color:palevioletred;
+    }
+    /* 75%{
+        color:palevioletred;
+    } */
+    100%{
+        color:white;
+    }
+    }

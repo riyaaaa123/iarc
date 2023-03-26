@@ -1,0 +1,46 @@
+body {
+	
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #ac61a6;
+}
+header{
+	height: 20vh;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.container{
+	
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.container div, .container h3{
+	color: white;
+}
+h1{
+	color: white;
+}
+
+.home{
+	color: white;
+	  height: 1.5rem;
+	  width: 5%;
+	  position: absolute;
+	  top: 2vh;
+	  right: 2vw;
+	  font-size: 1rem;
+	}
+	.aHome{
+		
+	  text-decoration: none;
+	}
+

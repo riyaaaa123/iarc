@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     background-color: black; 
+    min-width: 100%;
+    width: 100%;
+    /* color: white; */
+}
+@media only screen and (min-width:0px){
+    body{
+        background-image: url("/images/Rereeee.jpeg"); background-size: cover; background-position: center center; background-repeat: no-repeat; background-attachment: fixed;
+    }
+}
+.container{
+    font-size: 24px;
+   font-family:'Dosis', sans-serif; 
+    color:white;
+    /* background-color: wheat; */
+    margin: 0px auto;
+    
+
+}
+.container ul li a{
+   text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+ul{
+    text-align: center;
+    align-items: center;
+
+}
+li{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+
+}
+
+
+/*nav a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    border:10px;}
+    */
+
+.container ul li a:hover{
+color: rgb(41, 40, 39);
+text-decoration:underline;
+}
+.yeye{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    
+}
+.watch1,.watch2,.watch3,.watch4{
+    display: flex;
+    border:2px solid white;
+    height:140px;
+    /* justify-content: center; */
+    /* justify-self: ; */
+    width :65%;
+}
+.photo1{
+    width: 170px; height: 140px;
+    background-image: url("/images/watch 1.webp");  background-repeat: no-repeat; background-size: cover;
+    /* overflow: hidden; */
+}
+.text1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+}
+.text1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    position:relative;
+    left: 15px;
+}
+.text2{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    position:relative;
+    left: 15px;
+}
+.text3{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    position:relative;
+    left: 15px;
+}
+.text4{
+    position:relative;
+    left: 15px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.photo2{
+    width: 170px; height: 140px;
+    background-image: url("/images/watch 2.jpg");  background-repeat: no-repeat; background-size: cover;
+    
+    /* overflow: hidden; */
+}
+.photo3{
+    width: 170px; height: 140px;
+    background-image: url("/images/watch 3.webp");  background-repeat: no-repeat; background-size: cover;
+    
+    /* overflow: hidden; */
+}
+.photo4{
+    width: 170px; height: 140px;
+    background-image: url("/images/watch 4.jpg");  background-repeat: no-repeat; background-size: cover;
+    
+    /* overflow: hidden; */
+}
+.watchess a{
+    text-decoration: none;
+    color:black;
+    background-color: aliceblue;
+    
+
+}
+.watchess{
+    position: relative;
+    left: -100px;
+    top:40px;
+}

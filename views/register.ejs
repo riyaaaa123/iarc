@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="/css/register.css" />
+  
+    <header>
+    <div class="container">
+      <p>Register&nbsp;</p><p class="animated">now!</p>
+    </div>
+    <form method="post" action="/register">
+      <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Give yourself a username " required
+      >
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter a password" required
+      no>
+      <input
+        type="password"
+        name="cpassword"
+        id="cpassword"
+        placeholder="Confirm your password" required
+      />
+      <button type="submit" id="Submit" class="submit">Create Account</button>
+      <div class="signup">
+        <p>Already have an Account? &nbsp;</p>
+        <a href="/login">Login</a>
+      </div>
+    </form>
+    <div class="backhome">
+    <button class="home"><a href="/">Home</a></button>
+  </div>
+  </header>
